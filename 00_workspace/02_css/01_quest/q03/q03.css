@@ -1,0 +1,16 @@
+/*
+html 파일에 작업 : 고양이 이미지를 3개 화면에 출력			
+css 파일에 작업 : . 가운데 고양이에	패딩,마진	각각 설정하기
+추가로 보더를 둥글게 처리하기
+*/
+
+img {
+    width: 150px;
+}
+
+#specialcat{
+    border: 5px dashed pink;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 20px;
+}

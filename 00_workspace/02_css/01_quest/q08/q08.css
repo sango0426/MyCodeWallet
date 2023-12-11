@@ -1,0 +1,6 @@
+div {
+    display: flex;
+    background-image: url('../image/cat2.jfif');
+    background-size: auto;
+    background-origin: border-box;
+}

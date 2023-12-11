@@ -1,0 +1,30 @@
+a {
+    font-size: 400%;
+}
+
+a:link { /*링크를 방문하지 않았을때*/
+    color: red;
+}
+
+a:visited { /*링크에 방문했을때*/
+    color: orange;
+}
+
+a:hover { /*링크에 마우스 오버시*/
+    color: yellow;
+}
+
+a:active { /*링크를 클릭했을때*/
+    color: green;
+}
+
+
+
+
+input:focus { /*input칸에 초첨을 맞출 시*/
+    background-color: pink;
+}
+
+div>p:target { /*div태그*/
+    background-color: gray;
+}

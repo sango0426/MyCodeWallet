@@ -1,0 +1,14 @@
+#box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: red;
+    width: 100px;
+    height: 1000px;
+}
+
+#box_1 {
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+}

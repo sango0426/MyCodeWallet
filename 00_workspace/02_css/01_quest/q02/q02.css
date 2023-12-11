@@ -1,0 +1,43 @@
+/*
+좋아하는 주제로 외각선이 있는 테이블 만들기							
+. 제목 행 하나 만들고 리스트 2~3개 채우기. 							
+. 이미지 열 하나 포함해서 테이블 만들기. ( 행, 열 알아서 해보기 )							
+ex. 검 리스트, 방패 리스트, 옷 리스트, 포션 리스트, 몬스터 리스트, 지역 리스트 등등..							
+								
+html 파일에 작업		
+. 표 추가, 3행 3열 제목행 1열					
+. 표 셀 안에	텍스트 추가					
+이미지 추가	*. 이미지 파일 다운받아서 현 작업 폴더에 넣고 이미지 태그를 쓰면 이미지가 나옴.				
+<td> 태그 내에 <img> 태그를 넣는게 가능함.				
+css 파일에 작업
+. 표 tr 과 td 에 외각선 주기						
+. 이미지 사이즈 정해주기 ( 높이 , 폭 )
+*/
+
+table {
+    border: 1px solid black;
+}
+
+th, tr, td {
+    border: 1px solid black;
+}
+
+.animalpicture {
+    display: flex;
+    flex-direction: column;
+    justify-content: row;
+    align-items: center;
+}
+
+#cat {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    height: 150px;
+}
+
+#dog {
+    width: 180px;
+    height: 120px;
+}
+

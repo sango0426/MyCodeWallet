@@ -1,0 +1,60 @@
+/*
+레이아웃 잡기
+각 div 화면 구역을 배경색으로 구분하여 각 위치에 맞춰서 배치하기. 무슨 영역인지 텍스트도 써주세요
+	1	상단	좌	메인 배너 영역		red	
+	2	상단	우	서브 배너 영역		orange	
+	3	중단        중앙 메뉴 영역		yellow	
+	4	하단	좌	왼쪽 메뉴 영역		green	
+	5	하단	우	메인 컨텐츠 영역	blue	
+*/
+
+#top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#top_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: red;
+}
+
+#top_sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: orange;
+}
+
+#center_menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: yellow;
+}
+
+#bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#bottom_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: green;
+}
+
+#bottom_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: blue;
+}

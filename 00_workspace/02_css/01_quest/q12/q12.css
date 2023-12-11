@@ -1,0 +1,16 @@
+* {
+    color: pink;
+    background-color: gray;
+}
+
+h1 {
+    background: red;
+    width: 100px;
+    transition-property: width, background-color; /*대상:폭, 뒷배경*/
+    transition-duration: 1s; /*1초동안*/
+}
+
+h1:hover { /*h1에 마우스 오버시*/
+    background-color: blue;
+    width: 400px;
+}
