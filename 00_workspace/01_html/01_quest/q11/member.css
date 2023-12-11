@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+.homepage__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: row;
+    width: 100%;
+    font-size: 20px;
+    color: brown;
+}
+
+.mypicture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.button {
+    width: 60px;
+    height: 30px;
+}
+
+.myinformation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 250px;
+    margin: 15px;
+    font-size: 20px;
+}
+
+.textbox {
+    width: 200px;
+    height: 25px;
+    font-size: 20px;
+}
+
+.mydate {
+    height: 25px;
+    font-size: 18px;
+}
+
+.myintroduce {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introduce {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 150px;
+    font-size: 20px;
+}
+
+.button2 {
+    width: 80px;
+    height: 30px;
+}
