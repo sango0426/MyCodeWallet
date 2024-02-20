@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    background: url('backtarkov.jpg') center center fixed;
+    background-size: cover;
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#main_top {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 200px;
+}
+
+#logo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#advertisement img {
+    max-width: 100%;
+}
+
+#login_join {
+    display: flex;
+    gap: 10px;
+}
+
+#login_Button, #Join_Button, #logoutButton {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+#edit_title {
+    padding: 15px;
+}
+
+#edit_title input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#input_content {
+    padding: 15px;
+}
+
+#input_content textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#edit_button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    width: 150px;
+}
