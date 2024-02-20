@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* 배경 색상 설정 */
+    background-image: url('/image/backgroundtarkov.jpg'); /* 배경 이미지 경로 설정 */
+    background-size: cover;
+}
+
+#main_top {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main_top img {
+    width: 100px;
+}
+
+#login_join button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#login_join button:hover {
+    background-color: #45a049;
+}
+
+#mid {
+    width: 80%;
+    margin: 20px auto;
+}
+
+#text_list {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#text_top {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#text_top div {
+    flex-basis: calc(100% / 6);
+}
+
+#list_num {
+    margin-top: 10px;
+}
+
+#list_num hr {
+    border: 1px solid #ddd;
+}
+
+#list_num a {
+    text-decoration: none;
+    color: #333;
+}
+
+#write_toList {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#write_toList button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+#write_toList button:hover {
+    background-color: #45a049;
+}
+
+#pagingBlock {
+    margin-top: 20px;
+}
+
+#pagingBlock a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    margin-right: 5px;
+}
+
+#paging {
+    margin-top: 20px;
+}
+
+#search {
+    display: flex;
+    align-items: center;
+}
+
+#search input[type="text"] {
+    padding: 10px;
+}
+
+#search input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+#search input[type="submit"]:hover {
+    background-color: #45a049;
+}

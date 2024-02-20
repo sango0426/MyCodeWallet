@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* login.css */
+body {
+	font-family: 'Arial', sans-serif;
+	margin: 0;
+	padding: 0;
+	background: url('backgroundtarkov.jpg') center center fixed;
+	background-size: cover;
+	color: #fff;
+}
+
+#wrapper {
+	width: 400px;
+	margin: 50px auto;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	overflow: hidden; /* 로고가 튀어나가는 것을 방지하기 위해 overflow 추가 */
+}
+
+#wrapper_top {
+	background-color: #4682b4;
+	color: #fff;
+	padding: 20px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	text-align: center;
+	overflow: hidden; /* 로고가 튀어나가는 것을 방지하기 위해 overflow 추가 */
+}
+
+#logo {
+	width: 100%;
+}
+
+#joinlist {
+	padding: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	margin-bottom: 15px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+input[type="submit"] {
+	background-color: #4682b4;
+	color: #fff;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+	background-color: #346da1;
+}

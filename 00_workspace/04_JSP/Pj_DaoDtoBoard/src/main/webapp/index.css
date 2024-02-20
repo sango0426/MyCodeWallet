@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+body {
+	background-image: url('/image/backgroundtarkov.jpg'); /* 배경 이미지 경로 설정 */
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#main_top {
+    background-color: #333; /* 배경 색상 설정 */
+    color: #fff; /* 폰트 색상 설정 */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main_top_logo img {
+    width: 100px; /* 로고 이미지 너비 설정 */
+}
+
+#main_top_title h1 {
+    margin: 0;
+}
+
+#main_top_userInfo button {
+    background-color: #fff;
+    color: #333;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#main_body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+/* 각 섹션 버튼 스타일링 */
+#notification, #free, #walkthrough, #question, #tendinous, #tarkov_wiki_Button {
+    margin: 10px;
+}
+
+#notification button, #free button, #walkthrough button, #question button, #tendinous button, #tarkov_wiki_Button button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
